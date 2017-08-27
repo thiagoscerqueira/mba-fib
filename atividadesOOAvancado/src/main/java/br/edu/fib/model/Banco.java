@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Banco {
 
-    private List<Conta> listaDeTodasContas = new ArrayList<Conta>();
+    private List<IConta> listaDeTodasContas = new ArrayList<>();
 
-    public List<Conta> listaContas() {
+    public List<IConta> listaContas() {
         return listaDeTodasContas;
     }
 
@@ -20,7 +20,7 @@ public class Banco {
         return listaDeTodasContas.stream().map(conta -> conta.saldoAtual()).reduce(BigDecimal::add).orElse(BigDecimal.ZERO);
     }
 
-    public void adicionarConta(Conta conta) {
+    public void adicionarConta(IConta conta) {
         listaDeTodasContas.add(conta);
     }
 }

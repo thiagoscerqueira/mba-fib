@@ -34,11 +34,11 @@ public class BancoTest {
     }
 
     private Banco criaBancoComTresContas() {
-        Conta conta1 = new Conta("CONTA1");
+        IConta conta1 = new Conta("CONTA1");
         conta1.depositar(new BigDecimal(10));
-        Conta conta2 = new Conta("CONTA2");
+        IConta conta2 = new Conta("CONTA2");
         conta2.depositar(new BigDecimal(20));
-        Conta conta3 = new Conta("CONTA3");
+        IConta conta3 = new Conta("CONTA3");
         conta3.depositar(new BigDecimal(30));
 
         Banco banco = new Banco();
