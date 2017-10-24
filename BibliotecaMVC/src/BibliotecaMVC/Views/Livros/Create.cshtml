@@ -1,0 +1,70 @@
+@model BibliotecaMVC.Models.Livro
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Adicionar Novo Livro</h2>
+
+@if (ViewBag.erro != null)
+{
+    <div class="alert alert-danger">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>Erro!</strong> @Html.Raw(ViewBag.erro)
+    </div>    
+}
+
+<form asp-action="Create" enctype="multipart/form-data">
+    <div class="form-horizontal">        
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Titulo" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Titulo" class="form-control" />
+                <span asp-validation-for="Titulo" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Quantidade" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Quantidade" class="form-control" />
+                <span asp-validation-for="Quantidade" class="text-danger" />
+            </div>
+        </div>   
+        <div class="form-group">
+            <label asp-for="Foto" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input type="hidden" asp-for="Foto" />
+                <p>Selecione a imagem:</p>
+                <input type="file" name="files" accept="image/*">
+            </div>
+        </div>     
+        <div class="form-group">
+            <label class="col-md-2 control-label">Autores</label>
+            <div class="col-md-10">
+                @foreach (var item in ViewBag.Autores)
+                {
+                    <input type="checkbox"
+                           name="selectedAutores"
+                           value="@item.Value" />@item.Text
+
+                        <br />
+                }
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Salvar" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Voltar para Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

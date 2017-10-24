@@ -1,0 +1,46 @@
+@model IEnumerable<BibliotecaMVC.Models.Autor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Autores</h2>
+
+<form asp-action="Index" method="get">
+    <div class="row well">
+        <a asp-action="Create" class="btn btn-info pull-right">
+            <i class="glyphicon glyphicon-plus"></i> Adicionar Novo Autor
+        </a>
+        @Html.DisplayNameFor(model => model.Nome):&nbsp; <input type="text" name="filtroPesquisa" value="@ViewBag.filtroPesquisa" />
+        <input type="submit" value="Pesquisar" class="btn btn-default" /> |
+        <a asp-action="Index">Limpar</a>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-ordenacao="@ViewBag.NomeSortParam" asp-route-filtroPesquisa="@ViewBag.filtroPesquisa">
+                    @Html.DisplayNameFor(model => model.Nome)
+                </a>
+                
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.AutorID" class="btn btn-info"><i class="glyphicon glyphicon-search"></i> Detalhes</a>
+                <a asp-action="Edit" asp-route-id="@item.AutorID" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i> Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.AutorID" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i> Excluir</a>                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

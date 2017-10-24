@@ -1,0 +1,36 @@
+@model BibliotecaMVC.Models.Usuario
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalhes do Usu&aacute;rio</h2>
+
+<div>    
+    <hr />
+    <dl class="dl-horizontal">
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>        
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.UsuarioID" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i> Editar</a>
+    <a asp-action="Index">Voltar para Lista</a>    
+</div>

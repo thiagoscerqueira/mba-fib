@@ -1,0 +1,28 @@
+@model BibliotecaMVC.Models.Autor
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Excluir Autor</h2>
+
+<h3>Deseja realmente excluir este autor?</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-danger" /> 
+            <a asp-action="Index">Voltar para Lista</a>
+        </div>
+    </form>
+</div>
