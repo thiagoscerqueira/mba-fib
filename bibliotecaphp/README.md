@@ -7,7 +7,7 @@
 - Empréstimo de Livros
 
 
-**Observação** : para entrar nos cadastros de livros e autores, o usuário deve ter o campo role = 1 na tabela user. Por padrão, novos usuários cadastrados terão o campo role = 0, e não visualizam os cadastros de livros e autores no menu.
+**Observação** : para entrar nos cadastros de livros e autores, o usuário deve ter o campo role = 1 (admin) na tabela user. Por padrão, novos usuários cadastrados terão o campo role = 0, e não visualizam os cadastros de livros e autores no menu.
 
 
 ### Recursos:
