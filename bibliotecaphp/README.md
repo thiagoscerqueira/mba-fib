@@ -1,4 +1,4 @@
-**Projeto Biblioteca MVC desenvolvido em PHP - Framework Laravel**
+# Projeto Biblioteca MVC desenvolvido em PHP - Framework Laravel
 
 Funcionalidades:
 
