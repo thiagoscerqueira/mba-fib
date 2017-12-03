@@ -17,8 +17,8 @@
 - Controle de acesso: Apenas usuário administrador pode acessar cadastro dos livros e autores
 - Controle de acesso: Apenas usuário administrador pode registrar devolução de livros
 - Controle de acesso: Apenas usuário não administrador pode solicitar novo empréstimo de livro
-- Controle de acesso: Usuário administrador visualiza empréstimo de todos os usuários
-- Controle de acesso: Usuário não administrador visualiza apenas seus empréstimos solicitados (pendentes de devolução e devolvidos)
+- Usuário administrador visualiza empréstimo de todos os usuários
+- Usuário não administrador visualiza apenas seus empréstimos solicitados (pendentes de devolução e devolvidos)
 - Ao efetuar novo empréstimo ou devolução, apresenta mensagem de sucesso
 - Ao efetuar novo empréstimo, apresenta para seleção apenas livros disponíveis, que não estão emprestados a nenhum usuário no momento
 - Ao efetuar novo empréstimo, o usuário seleciona o livro pela foto, visualizando também o título e a descrição de cada um
