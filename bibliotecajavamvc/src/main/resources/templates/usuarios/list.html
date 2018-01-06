@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Usuário</title>
+</head>
+<body>
+
+<h1 layout:fragment="header">
+    <a th:href="@{/usuarios/novo}" class="btn btn-sm btn-info"><i class="glyphicon glyphicon-plus"></i></a>
+    Usuários
+</h1>
+
+<div layout:fragment="content" class="container">
+    <table class="table">
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>Nome de usuário</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${usuarios.empty}">
+            <td colspan="2">Sem usuários</td>
+        </tr>
+        <tr th:each="usuario : ${usuarios}">
+            <td th:text="${usuario.id}">1</td>
+            <td>
+                <a href="#" th:href="@{'/usuarios/'+${usuario.id}}"
+                   th:text="${usuario.username}"> Username </a>
+            </td>
+            <td>
+                <a href="#" th:href="@{'/usuarios/alterar/'+${usuario.id}}"> Alterar </a>
+            </td>
+            <td>
+                <a href="#" th:href="@{'/usuarios/excluir/'+${usuario.id}}"> Excluir </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+
+</html>

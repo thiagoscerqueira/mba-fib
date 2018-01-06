@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Livros</title>
+</head>
+<body>
+
+<h1 layout:fragment="header">
+    <a th:href="@{/livros/novo}" class="btn btn-sm btn-info"><i class="glyphicon glyphicon-plus"></i></a>
+    Livros
+</h1>
+
+<div layout:fragment="content" class="container">
+    <table class="table">
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>Título</td>
+            <td>Quantidade de Páginas</td>
+            <td>Autor</td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${livros.empty}">
+            <td colspan="2">Sem livros</td>
+        </tr>
+        <tr th:each="livro : ${livros}">
+            <td th:text="${livro.id}">1</td>
+            <td>
+                <a href="#" th:href="@{'/livros/'+${livro.id}}"
+                   th:text="${livro.titulo}"> Título </a>
+            </td>
+            <td th:text="${livro.quantidade}">0</td>
+            <td th:if="${livro.autor != null and livro.autor.nome != null}" th:text="${livro.autor.nome}">Nenhum</td>
+            <td th:if="${livro.autor == null or livro.autor.nome == null}">Nenhum</td>
+            <td>
+                <a href="#" th:href="@{'/livros/alterar/'+${livro.id}}"> Alterar </a>
+            </td>
+            <td>
+                <a href="#" th:href="@{'/livros/excluir/'+${livro.id}}"> Excluir </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

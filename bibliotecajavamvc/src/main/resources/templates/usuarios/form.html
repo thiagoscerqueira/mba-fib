@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Cadastrar Usuário</title>
+</head>
+<body>
+
+<nav layout:fragment="header" aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" th:href="@{/usuarios}">Usuários</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Novo Usuário</li>
+    </ol>
+</nav>
+
+<div layout:fragment="content" class="container">
+    <form id="usuarioForm" th:action="@{/usuarios}" method="post" th:object="${usuario}" action="#">
+        <div class="form-group row">
+            <input type="hidden" th:field="*{id}"/>
+
+            <label for="staticNome" class="col-sm-2 col-form-label">Nome de usuário</label>
+            <div class="col-sm-10">
+                <input type="text" th:field="*{username}" id="staticNome" class="form-control-plaintext"/>
+                <span th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Username Error</span>
+            </div>
+
+            <label for="staticPass" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" th:field="*{passsword}" id="staticPass" class="form-control-plaintext"/>
+                <span th:if="${#fields.hasErrors('passsword')}" th:errors="*{passsword}">Password Error</span>
+            </div>
+            <input type="submit" value="Salvar"/>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

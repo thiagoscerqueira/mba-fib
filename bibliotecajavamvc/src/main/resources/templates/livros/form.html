@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Cadastro de Livro</title>
+</head>
+<body>
+
+<nav layout:fragment="header" aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" th:href="@{/livros}">Livros</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Novo Livro</li>
+    </ol>
+</nav>
+
+<div layout:fragment="content" class="container">
+    <form id="livroForm" th:action="@{/livros}" method="post" th:object="${livro}" action="#">
+        <div class="form-group row">
+            <input type="hidden" th:field="*{id}"/>
+
+            <label for="staticTitulo" class="col-sm-2 col-form-label">Título</label>
+            <div class="col-sm-10">
+                <input type="text" th:field="*{titulo}" class="form-control-plaintext" id="staticTitulo"/>
+                <span th:if="${#fields.hasErrors('titulo')}" th:errors="*{titulo}">Titulo Error</span>
+            </div>
+
+            <label for="staticPaginas" class="col-sm-2 col-form-label">Total Páginas</label>
+            <div class="col-sm-10">
+                <input type="text" th:field="*{quantidade}" class="form-control-plaintext" id="staticPaginas"/>
+                <span th:if="${#fields.hasErrors('quantidade')}"
+                      th:errors="*{quantidade}">Quantidade de pagina Error</span>
+            </div>
+
+            <label for="staticAutor" class="col-sm-2 col-form-label">Autor</label>
+            <div class="col-sm-10">
+                <select th:field="*{autor}" class="form-control-plaintext" id="staticAutor">
+                    <option value="">Selecione</option>
+                    <option th:each="autor : ${autores}" th:value="${autor.id}" th:text="${autor.nome}">Autor</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
