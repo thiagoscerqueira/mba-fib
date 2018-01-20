@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 <head>
     <meta charset="UTF-8" />
     <title>Biblioteca de livros</title>
@@ -19,9 +20,9 @@
                 <img th:src="@{/img/book.jpg}" src="../static/img/book.jpg" width="50px" /></a>
         </div>
         <ul class="nav navbar-nav">
-            <li><a class="brand" th:href="@{/livros}" href="#"> Livros </a></li>
-            <li><a class="brand" th:href="@{/autores}" href="#"> Autores </a></li>
-            <li><a class="brand" th:href="@{/usuarios}" href="#"> Usuários </a></li>
+            <li sec:authorize="hasAuthority('ROLE_ADMINISTRADOR')"><a class="brand" th:href="@{/livros}" href="#"> Livros </a></li>
+            <li sec:authorize="hasAuthority('ROLE_ADMINISTRADOR')"><a class="brand" th:href="@{/autores}" href="#"> Autores </a></li>
+            <li sec:authorize="hasAuthority('ROLE_ADMINISTRADOR')"><a class="brand" th:href="@{/usuarios}" href="#"> Usuários </a></li>
         </ul>
     </nav>
     <h1 layout:fragment="header">cabeçalho falso</h1>

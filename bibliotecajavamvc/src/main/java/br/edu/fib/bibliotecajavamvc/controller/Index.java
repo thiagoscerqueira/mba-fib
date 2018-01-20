@@ -10,21 +10,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class Index {
-    
-    @Autowired
-    private LivroRepository livroRepository;
-    
-    @RequestMapping("/")
+
+    @RequestMapping("/index")
     public ModelAndView home()
     {
         return new ModelAndView("index");
     }
-
-    @RequestMapping("/child")
-    public ModelAndView test()
-    {
-        return new ModelAndView("child");
-    }
-        
-    
 }
