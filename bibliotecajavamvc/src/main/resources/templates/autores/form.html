@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layout">
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"  layout:decorate="~{layout/layout-padrao}">
 <head>
     <meta charset="UTF-8"/>
     <title>Cadastrar Autor</title>
 </head>
 <body>
 
-<nav layout:fragment="header" aria-label="breadcrumb" role="navigation">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#" th:href="@{/autores}">Autores</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Novo Autor</li>
-    </ol>
-</nav>
+<section layout:fragment="header">
+    <div class="container-fluid">
 
-<div layout:fragment="content" class="container">
+        <nav aria-label="breadcrumb" role="navigation">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#" th:href="@{/autores}">Autores</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Novo Autor</li>
+            </ol>
+        </nav>
+    </div>
+
+</section>
+
+<section layout:fragment="conteudo">
+    <div class="container-fluid">
     <form id="autoresForm" th:action="@{/autores}" method="post" th:object="${autor}" action="#">
         <div class="form-group row">
             <input type="hidden" th:field="*{id}"/>
@@ -24,10 +31,12 @@
                 <input type="text" th:field="*{nome}" id="staticNome" class="form-control-plaintext"/>
                 <span th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}">Nome Error</span>
             </div>
-            <input type="submit" value="Salvar"/>
         </div>
+
+        <button type="submit" class="btn  btn-primary">Salvar</button>
+
     </form>
 </div>
-
+</section>
 </body>
 </html>

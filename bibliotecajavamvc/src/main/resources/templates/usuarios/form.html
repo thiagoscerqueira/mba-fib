@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layout">
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"  layout:decorate="~{layout}">
 <head>
     <meta charset="UTF-8"/>
     <title>Cadastrar Usuário</title>
@@ -9,8 +9,7 @@
 
 <nav layout:fragment="header" aria-label="breadcrumb" role="navigation">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#" th:href="@{/usuarios}">Usuários</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Novo Usuário</li>
+        <li class="breadcrumb-item"><a href="#" th:href="@{/login}">Login</a></li>
     </ol>
 </nav>
 

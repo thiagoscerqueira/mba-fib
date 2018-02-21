@@ -1,0 +1,22 @@
+<div class="ui-g">
+  <div class="ui-g-12">
+    <h1>Lista de Autores</h1>
+    <button pButton label="Adicionar" routerLink="/autores/novo" routerLinkActive="true"></button>
+</div>
+<div class="ui-g">
+  <div class="ui-g-12">
+
+    <p-dataTable [value]="itens">
+      <p-column styleClass="col-button">
+        <ng-template let-autor="rowData" pTemplate="body">
+          <button type="button" pButton icon="fa-edit" [routerLink]="['/autores/editar/',autor.id]"></button>
+          <button type="button" pButton icon="fa-trash" (click)="excluir(autor.id)"
+                  style="background-color: red; border-color: red"></button>
+        </ng-template>
+      </p-column>
+      <p-column field="id" header="Id"></p-column>
+      <p-column field="nome" header="Nome"></p-column>
+    </p-dataTable>
+
+  </div>
+</div>

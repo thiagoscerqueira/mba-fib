@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.validation.Valid;
 import java.util.List;
@@ -31,18 +32,19 @@ public class AutorController {
         return "autores/form";
     }
 
-    @GetMapping("/alterar/{id}")
+    @GetMapping("/{id}")
     public ModelAndView alterar(@PathVariable("id") Long id) {
         Autor autor= this.autorRepository.findOne(id);
         return new ModelAndView("autores/form", "autor", autor);
     }
 
     @PostMapping
-    public ModelAndView create(@ModelAttribute @Valid Autor autor, BindingResult bindingResult) {
+    public ModelAndView create(@ModelAttribute @Valid Autor autor, BindingResult bindingResult, RedirectAttributes attributes) {
         if (bindingResult.hasErrors()) {
             return new ModelAndView("autores/form");
         }
-        autor = autorRepository.save(autor);
+        autorRepository.save(autor);
+        attributes.addFlashAttribute("mensagem", "Autor salvo com sucesso");
         return new ModelAndView("redirect:/autores");
     }
 

@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org"
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
-      layout:decorate="layout">
+      layout:decorate="~{layout/layout-padrao}">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>Biblioteca de Livros</title>
 </head>
 <body>
-<h1 layout:fragment="header">Biblioteca</h1>
-<div layout:fragment="content" class="container">
+
+<section layout:fragment="conteudo">
+<div class="container">
     <div >
         <img th:src="@{/img/biblioteca.jpg}" src="../static/img/biblioteca.jpg" width="20%" />
     </div>
 </div>
+</section>
 </body>
 </html>

@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layout">
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"  layout:decorate="~{layout/layout-padrao}">
 <head>
     <meta charset="UTF-8"/>
-    <title>Livros</title>
+    <title>Pesquisa de Livros</title>
 </head>
 <body>
 
-<h1 layout:fragment="header">
-    <a th:href="@{/livros/novo}" class="btn btn-sm btn-info"><i class="glyphicon glyphicon-plus"></i></a>
-    Livros
-</h1>
+<section layout:fragment="header">
+    <div class="page-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-10">
+                <h1>Pesquisa de Livros</h1>
+            </div>
 
-<div layout:fragment="content" class="container">
-    <table class="table">
+            <div class="col-xs-2">
+                <div class="aw-page-header-controls">
+                    <a class="btn  btn-default" th:href="@{/livros/novo}">
+                        <i class="glyphicon  glyphicon-plus-sign"></i> <span class="hidden-xs  hidden-sm">Novo Livro</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section layout:fragment="conteudo">
+
+<div class="container-fluid">
+    <div class="table-responsive  bw-tabela-simples">
+    <table class="table table-hover">
         <thead>
         <tr>
-            <td>ID</td>
-            <td>Título</td>
-            <td>Quantidade de Páginas</td>
-            <td>Autor</td>
-            <td></td>
-            <td></td>
-
+            <th>ID</th>
+            <th>Título</th>
+            <th>Quantidade de Páginas</th>
+            <th>Autor</th>
+            <th></th>
+            <th></th>
         </tr>
         </thead>
         <tbody>
         <tr th:if="${livros.empty}">
-            <td colspan="2">Sem livros</td>
+            <td colspan="6">Sem livros</td>
         </tr>
         <tr th:each="livro : ${livros}">
             <td th:text="${livro.id}">1</td>
@@ -47,6 +64,9 @@
         </tr>
         </tbody>
     </table>
+    </div>
 </div>
+</section>
 </body>
+
 </html>
