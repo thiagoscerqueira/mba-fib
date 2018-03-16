@@ -3,6 +3,7 @@ package br.edu.fib.calculoSalarioTDD.regraCalculo;
 import org.junit.Test;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -11,7 +12,7 @@ import static org.junit.Assert.assertThat;
 public class RegraDescontoIRTest {
 
     @Test
-    public void deveCalcularValorZeroQuandoSalarioBrutoPositivoMenorQue500() {
+    public void deveCalcularValorZeroQuandoSalarioBrutoInteiroPositivoMenorQue500() {
         BigDecimal desconto = new RegraDescontoIR().calcula(new BigDecimal(200));
         assertThat(desconto, is(BigDecimal.ZERO));
     }
@@ -23,9 +24,15 @@ public class RegraDescontoIRTest {
     }
 
     @Test
-    public void deveCalcularValorQuandoSalarioBrutoMaiorQue500EMenorQueMil() {
+    public void deveCalcularValorQuandoSalarioBrutoInteiroMaiorQue500EMenorQueMil() {
         BigDecimal desconto = new RegraDescontoIR().calcula(new BigDecimal(700));
         assertThat(desconto, is(new BigDecimal(35)));
+    }
+
+    @Test
+    public void deveCalcularValorQuandoSalarioBrutoDecimalMaiorQue500EMenorQueMil() {
+        BigDecimal desconto = new RegraDescontoIR().calcula(new BigDecimal(799.48));
+        assertThat(desconto.setScale(2, RoundingMode.DOWN), is(new BigDecimal(39.971).setScale(2, RoundingMode.DOWN)));
     }
 
     @Test

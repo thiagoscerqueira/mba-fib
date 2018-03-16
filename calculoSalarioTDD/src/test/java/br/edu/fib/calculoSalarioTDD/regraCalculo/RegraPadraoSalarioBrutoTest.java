@@ -5,6 +5,7 @@ import br.edu.fib.calculoSalarioTDD.model.InfoFuncionario;
 import org.junit.Test;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -12,7 +13,7 @@ import static org.junit.Assert.assertThat;
 public class RegraPadraoSalarioBrutoTest {
 
     @Test
-    public void deveCalcularValorQuandoPossuiHorasTrabalhadasSalarioHoraEDependentes() {
+    public void deveCalcularValorQuandoPossuiHorasTrabalhadasSalarioHoraInteiroEDependentes() {
         InfoFuncionario infoFuncionario = new InfoFuncionarioBuilder()
                 .comSalarioHora(new BigDecimal(50))
                 .comQuantidadeHorasTrabalhadas(35)
@@ -21,6 +22,18 @@ public class RegraPadraoSalarioBrutoTest {
 
         BigDecimal valorSalarioBruto = new RegraPadraoSalarioBruto().calcula(infoFuncionario);
         assertThat(valorSalarioBruto, is(new BigDecimal(1850)));
+    }
+
+    @Test
+    public void deveCalcularValorQuandoPossuiHorasTrabalhadasSalarioHoraDecimalEDependentes() {
+        InfoFuncionario infoFuncionario = new InfoFuncionarioBuilder()
+                .comSalarioHora(new BigDecimal(45.291).setScale(2, RoundingMode.DOWN))
+                .comQuantidadeHorasTrabalhadas(35)
+                .comQuantidadeDependentes(3)
+                .build();
+
+        BigDecimal valorSalarioBruto = new RegraPadraoSalarioBruto().calcula(infoFuncionario);
+        assertThat(valorSalarioBruto.setScale(2, RoundingMode.DOWN), is(new BigDecimal(1735.151).setScale(2, RoundingMode.DOWN)));
     }
 
     @Test
