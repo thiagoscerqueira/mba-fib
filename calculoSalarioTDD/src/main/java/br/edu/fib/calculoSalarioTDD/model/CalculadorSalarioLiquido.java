@@ -4,6 +4,7 @@ import br.edu.fib.calculoSalarioTDD.regraCalculo.IRegraDescontoSalario;
 import br.edu.fib.calculoSalarioTDD.regraCalculo.IRegraSalarioBruto;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -11,7 +12,7 @@ public class CalculadorSalarioLiquido implements ICalculadorSalarioLiquido {
 
     private InfoFuncionario infoFuncionario;
     private IRegraSalarioBruto regraSalarioBruto;
-    private List<IRegraDescontoSalario> descontos;
+    private List<IRegraDescontoSalario> descontos = new ArrayList<>();
 
     public CalculadorSalarioLiquido() {
     }
