@@ -16,10 +16,10 @@ public class RegraPadraoSalarioBruto implements IRegraSalarioBruto {
         if (infoFuncionario.getQuantidadeDependentes() < 0) {
             throw new IllegalArgumentException("Quantidade de dependentes não deve ser negativa");
         }
+
         if (infoFuncionario.getQuantidadeHorasTrabalhadas() < 0) {
             throw new IllegalArgumentException("Quantidade de horas trabalhadas não deve ser negativa");
         }
-
 
         return infoFuncionario.getSalarioHora()
                 .multiply(new BigDecimal(infoFuncionario.getQuantidadeHorasTrabalhadas()))
