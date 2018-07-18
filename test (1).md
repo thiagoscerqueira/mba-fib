@@ -654,3 +654,6 @@ print(string)
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA0ODM2Mjc2N119
+-->
