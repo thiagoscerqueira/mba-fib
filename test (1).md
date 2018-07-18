@@ -31,7 +31,7 @@ var serenity = Spaceship(name: "Serenity")
 serenity.name = "TARDIS"
 ```
 - [ ] "I'm called Serenity"
-- [ ] "I'm called TARDIS"
+- [x] "I'm called TARDIS"
 - [ ] "I'm called Serenity", "I'm called TARDIS"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -655,5 +655,5 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODM2Mjc2N119
+eyJoaXN0b3J5IjpbLTc4MjQ5NzQzMywyMDQ4MzYyNzY3XX0=
 -->
