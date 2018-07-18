@@ -288,7 +288,7 @@ names.append("Clara")
 ```
 - [ ] ["Amy", "Rory"]
 - [ ] ["Rory", "Clara"]
-- [ ] ["Amy", "Rory", "Clara"]
+- [x] ["Amy", "Rory", "Clara"]
 - [ ] [] (array vazio)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzkyMzc1MSw5NTgyNTQyNzksLTc2Nj
+eyJoaXN0b3J5IjpbLTc0NzM0OTU1Myw5NTgyNTQyNzksLTc2Nj
 M5NDA4OSwtNzgyNDk3NDMzLDIwNDgzNjI3NjddfQ==
 -->
