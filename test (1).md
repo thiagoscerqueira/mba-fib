@@ -562,7 +562,7 @@ print(fan.favoriteSong)
 - [ ] "nil"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
-- [ ] Código não compila
+- [x] Código não compila
 
 **33. No código seguinte, qual o valor da constante `result`?**
 ```swift
@@ -574,7 +574,7 @@ let result = numbers.reduce(0, +)
 - [ ] (1, 3, 5, 7, 9) - tupla
 - [ ] 0
 - [ ] 1
-- [ ] 25
+- [x] 25
 - [ ] [1, 3, 5, 7, 9]
 
 **34. Qual a saída produzida pelo seguinte trecho de código?**
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM4MjMwNTcsMzQ0MDg4NTM1LDE4Nz
-k2MDE3MTEsLTc0NzM0OTU1Myw5NTgyNTQyNzksLTc2NjM5NDA4
-OSwtNzgyNDk3NDMzLDIwNDgzNjI3NjddfQ==
+eyJoaXN0b3J5IjpbNTY2ODQwMTExLC0xNTIzODIzMDU3LDM0ND
+A4ODUzNSwxODc5NjAxNzExLC03NDczNDk1NTMsOTU4MjU0Mjc5
+LC03NjYzOTQwODksLTc4MjQ5NzQzMywyMDQ4MzYyNzY3XX0=
 -->
