@@ -202,7 +202,7 @@ let j = i + i
 ```
 - [ ] "5"
 - [ ] 55
-- [ ] "55"
+- [x] "55"
 - [ ] 10
 - [ ] "" (string vazia)
 - [ ] Código compila, mas resulta em erro fatal
@@ -217,7 +217,7 @@ let third = first + second
 - [ ] ["Nostromo", "Sulaco", "TIE Fighter", "X-Wing"]
 - [ ] ["X-Wing", "TIE Fighter", "Sulaco", "Nostromo"]
 - [ ] ["Sulaco", "Nostromo"]
-- [ ] ["Sulaco", "Nostromo", "X-Wing", "TIE Fighter"]
+- [x] ["Sulaco", "Nostromo", "X-Wing", "TIE Fighter"]
 - [ ] [ ] (array vazio)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MjU0Mjc5LC03NjYzOTQwODksLTc4Mj
-Q5NzQzMywyMDQ4MzYyNzY3XX0=
+eyJoaXN0b3J5IjpbMTk5OTcyODUwMyw5NTgyNTQyNzksLTc2Nj
+M5NDA4OSwtNzgyNDk3NDMzLDIwNDgzNjI3NjddfQ==
 -->
