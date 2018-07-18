@@ -49,7 +49,7 @@ enterprise.name = "Enterprise"
 
 print(tardis.name)
 ```
-- [ ] "TARDIS"
+- [x] "TARDIS"
 - [ ] "Enterprise"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -63,7 +63,7 @@ for i in 1...3 {
 ```
 - [ ] "1", "2"
 - [ ] "2"
-- [ ] "1", "2", "3"
+- [x] "1", "2", "3"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
@@ -655,5 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjQ5NzQzMywyMDQ4MzYyNzY3XX0=
+eyJoaXN0b3J5IjpbLTE2Mjg1MjIzOTMsLTc4MjQ5NzQzMywyMD
+Q4MzYyNzY3XX0=
 -->
