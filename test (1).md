@@ -374,7 +374,7 @@ print(fizzbuzz(number: 15))
 ```
 - [ ] "Fizz"
 - [ ] "Buzz'
-- [ ] "FizzBuzz"
+- [x] "FizzBuzz"
 - [ ] "15"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -391,7 +391,7 @@ greet(names: "Malcolm", "Kaylee", "Zoe")
 - [ ] "Criminal masterminds:", ["Macolm", "Kaylee", "Zoe"]
 - [ ] "Criminal masterminds:", "Macolm", "Kaylee", "Zoe"
 - [ ] "Criminal masterminds:", "Macolm, Kaylee, Zoe"
-- [ ] "Criminal masterminds: Macolm, Kaylee, Zoe"
+- [x] "Criminal masterminds: Macolm, Kaylee, Zoe"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjc2MTM1LC03NDczNDk1NTMsOTU4Mj
-U0Mjc5LC03NjYzOTQwODksLTc4MjQ5NzQzMywyMDQ4MzYyNzY3
-XX0=
+eyJoaXN0b3J5IjpbLTQwNjkwMDI2NSwtNzQ3MzQ5NTUzLDk1OD
+I1NDI3OSwtNzY2Mzk0MDg5LC03ODI0OTc0MzMsMjA0ODM2Mjc2
+N119
 -->
