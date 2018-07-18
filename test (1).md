@@ -271,7 +271,7 @@ let numbers = [1, 2, 3].map { [$0, $0] }
 ```
 - [ ] [1, 2, 3]
 - [ ] [3, 2, 1]
-- [ ] [[1, 1], [2, 2], [3, 3]]
+- [x] [[1, 1], [2, 2], [3, 3]]
 - [ ] [[1, 1], [1, 2], [1, 3]]
 - [ ] [[1, 1], [2, 1], [3, 1]]
 - [ ] [ ] (array vazio)
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjQxMjc1MSw5NTgyNTQyNzksLTc2Nj
+eyJoaXN0b3J5IjpbMjEwNzkyMzc1MSw5NTgyNTQyNzksLTc2Nj
 M5NDA4OSwtNzgyNDk3NDMzLDIwNDgzNjI3NjddfQ==
 -->
