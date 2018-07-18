@@ -263,7 +263,7 @@ if let name = names[1] {
 - [ ] "Brought to you by Jordan"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
-- [ ] Código não compila
+- [x] Código não compila
 
 **16. Ao final do trecho de código seguinte, qual o conteúdo da constante `numbers`?**
 ```swift
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMzMjA0MDksOTU4MjU0Mjc5LC03Nj
-YzOTQwODksLTc4MjQ5NzQzMywyMDQ4MzYyNzY3XX0=
+eyJoaXN0b3J5IjpbMTQ0MjQxMjc1MSw5NTgyNTQyNzksLTc2Nj
+M5NDA4OSwtNzgyNDk3NDMzLDIwNDgzNjI3NjddfQ==
 -->
