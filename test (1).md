@@ -88,7 +88,7 @@ default:
 }
 ```
 - [ ] "It's not that windy"
-- [ ] "It's very windy"
+- [x] "It's very windy"
 - [ ] "It's a bit windy"
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjg1MjIzOTMsLTc4MjQ5NzQzMywyMD
-Q4MzYyNzY3XX0=
+eyJoaXN0b3J5IjpbMjExMzQyNDA2MywtNzgyNDk3NDMzLDIwND
+gzNjI3NjddfQ==
 -->
