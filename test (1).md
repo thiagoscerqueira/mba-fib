@@ -417,7 +417,7 @@ let result = numbers.filter { $0 >= 5 }
 - [ ] 0
 - [ ] 1
 - [ ] 2
-- [ ] 3
+- [x] 3
 - [ ] 4
 - [ ] 5
 
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTYwMTcxMSwtNzQ3MzQ5NTUzLDk1OD
-I1NDI3OSwtNzY2Mzk0MDg5LC03ODI0OTc0MzMsMjA0ODM2Mjc2
-N119
+eyJoaXN0b3J5IjpbLTIwNTM3NDE0MzMsMTg3OTYwMTcxMSwtNz
+Q3MzQ5NTUzLDk1ODI1NDI3OSwtNzY2Mzk0MDg5LC03ODI0OTc0
+MzMsMjA0ODM2Mjc2N119
 -->
