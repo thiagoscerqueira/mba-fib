@@ -105,7 +105,7 @@ for i in 3...1 {
 - [ ] "3", "2"
 - [ ] "3", "2", "1"
 - [ ] nada
-- [ ] Código compila, mas resulta em erro fatal
+- [x] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 
 **6. Qual a saída produzida pelo seguinte trecho de código?**
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzQyNDA2MywtNzgyNDk3NDMzLDIwND
+eyJoaXN0b3J5IjpbLTc2NjM5NDA4OSwtNzgyNDk3NDMzLDIwND
 gzNjI3NjddfQ==
 -->
