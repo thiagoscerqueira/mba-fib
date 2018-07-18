@@ -117,7 +117,7 @@ if let last = names.last {
 }
 ```
 - [ ] "Serenity"
-- [ ] "Galactica"
+- [x] "Galactica"
 - [ ] "Optional(Serenity)"
 - [ ] "Optional(Galactica)"
 - [ ] nada
@@ -142,7 +142,7 @@ case 3:
 - [ ] "Number was 3"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
-- [ ] Código não compila
+- [x] Código não compila
 
 **8. Qual a saída produzida pelo seguinte trecho de código?**
 ```swift
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjM5NDA4OSwtNzgyNDk3NDMzLDIwND
-gzNjI3NjddfQ==
+eyJoaXN0b3J5IjpbMTYzNDcyMjI0NywtNzY2Mzk0MDg5LC03OD
+I0OTc0MzMsMjA0ODM2Mjc2N119
 -->
