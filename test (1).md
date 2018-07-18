@@ -473,7 +473,7 @@ if !userLoggedIn! {
     print("Message two")
 }
 ```
-- [ ] "Message one"
+- [x] "Message one"
 - [ ] "Message two"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -491,7 +491,7 @@ case let (x, y):
     print("X was \(x) and Y was \(y)")
 }
 ```
-- [ ] "X was 556"
+- [x] "X was 556"
 - [ ] "Y was 0"
 - [ ] "X was 556 and Y was 0"
 - [ ] nada
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg1NTQzNjksMTg3OTYwMTcxMSwtNz
+eyJoaXN0b3J5IjpbLTEzNjk1MzEwMDksMTg3OTYwMTcxMSwtNz
 Q3MzQ5NTUzLDk1ODI1NDI3OSwtNzY2Mzk0MDg5LC03ODI0OTc0
 MzMsMjA0ODM2Mjc2N119
 -->
