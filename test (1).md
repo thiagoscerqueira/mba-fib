@@ -230,7 +230,7 @@ let num = UInt.min
 - [ ] 9223372036854775807
 - [ ] 32767
 - [ ] -32767
-- [ ] 0
+- [x] 0
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTcyODUwMyw5NTgyNTQyNzksLTc2Nj
-M5NDA4OSwtNzgyNDk3NDMzLDIwNDgzNjI3NjddfQ==
+eyJoaXN0b3J5IjpbNzQ3NTU1Mjc5LDk1ODI1NDI3OSwtNzY2Mz
+k0MDg5LC03ODI0OTc0MzMsMjA0ODM2Mjc2N119
 -->
