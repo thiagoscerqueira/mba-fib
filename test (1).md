@@ -527,7 +527,7 @@ print(foo(2))
 - [ ] "15"
 - [ ] "2"
 - [ ] "3"
-- [ ] "30"
+- [x] "30"
 - [ ] "nada"
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0MDg4NTM1LDE4Nzk2MDE3MTEsLTc0Nz
-M0OTU1Myw5NTgyNTQyNzksLTc2NjM5NDA4OSwtNzgyNDk3NDMz
-LDIwNDgzNjI3NjddfQ==
+eyJoaXN0b3J5IjpbLTE1MjM4MjMwNTcsMzQ0MDg4NTM1LDE4Nz
+k2MDE3MTEsLTc0NzM0OTU1Myw5NTgyNTQyNzksLTc2NjM5NDA4
+OSwtNzgyNDk3NDMzLDIwNDgzNjI3NjddfQ==
 -->
