@@ -457,7 +457,7 @@ print(doctor)
 - [ ] "nil"
 - [ ] "Simon"
 - [ ] "Optional(Simon)"
-- [ ] "Bones"
+- [x] "Bones"
 - [ ] "Simon", "Bones"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjU4NDAyMywxODc5NjAxNzExLC03ND
-czNDk1NTMsOTU4MjU0Mjc5LC03NjYzOTQwODksLTc4MjQ5NzQz
-MywyMDQ4MzYyNzY3XX0=
+eyJoaXN0b3J5IjpbLTIwNDg1NTQzNjksMTg3OTYwMTcxMSwtNz
+Q3MzQ5NTUzLDk1ODI1NDI3OSwtNzY2Mzk0MDg5LC03ODI0OTc0
+MzMsMjA0ODM2Mjc2N119
 -->
