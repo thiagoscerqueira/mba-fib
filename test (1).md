@@ -244,7 +244,7 @@ print("\(sayHello(to: "Jayne"))")
 ```
 - [ ] "(String) - > (String)"
 - [ ] "Howdy, \(name)!"
-- [ ] "Howdy, Jayne!"
+- [x] "Howdy, Jayne!"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NTU1Mjc5LDk1ODI1NDI3OSwtNzY2Mz
-k0MDg5LC03ODI0OTc0MzMsMjA0ODM2Mjc2N119
+eyJoaXN0b3J5IjpbLTE5OTMzMjA0MDksOTU4MjU0Mjc5LC03Nj
+YzOTQwODksLTc4MjQ5NzQzMywyMDQ4MzYyNzY3XX0=
 -->
