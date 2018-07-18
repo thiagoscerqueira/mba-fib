@@ -585,7 +585,7 @@ print(result)
 ```
 - [ ] "[\"Kaylee\", \"River\", \"Zoe\"]"
 - [ ] "[\"Kaylee\"]"
-- [ ] "[\"Zoe\", \"River\", \"Kaylee\"]"
+- [x] "[\"Zoe\", \"River\", \"Kaylee\"]"
 - [ ] "[\"Zoe\"]"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2ODQwMTExLC0xNTIzODIzMDU3LDM0ND
+eyJoaXN0b3J5IjpbNDcyNzY3NDQ3LC0xNTIzODIzMDU3LDM0ND
 A4ODUzNSwxODc5NjAxNzExLC03NDczNDk1NTMsOTU4MjU0Mjc5
 LC03NjYzOTQwODksLTc4MjQ5NzQzMywyMDQ4MzYyNzY3XX0=
 -->
