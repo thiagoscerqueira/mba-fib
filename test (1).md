@@ -181,7 +181,7 @@ print(serenity.type)
 - [ ] "" (string vazia)
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
-- [ ] Código não compila
+- [x] Código não compila
 
 **10. Ao final do trecho de código seguinte, qual será o conteúdo do array `names`?**
 ```swift
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0MzE0Mzk5LC03NjYzOTQwODksLTc4Mj
+eyJoaXN0b3J5IjpbOTU4MjU0Mjc5LC03NjYzOTQwODksLTc4Mj
 Q5NzQzMywyMDQ4MzYyNzY3XX0=
 -->
