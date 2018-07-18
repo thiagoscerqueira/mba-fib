@@ -504,7 +504,7 @@ let numbers = [1, 3, 5, 7, 9]
 let result = numbers.map { $0 * 10 }
 print(numbers)
 ```
-- [ ] "[1, 3, 5, 7, 9]"
+- [x] "[1, 3, 5, 7, 9]"
 - [ ] "[10, 30, 50, 70, 90]"
 - [ ] "250"
 - [ ] nada
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjk1MzEwMDksMTg3OTYwMTcxMSwtNz
-Q3MzQ5NTUzLDk1ODI1NDI3OSwtNzY2Mzk0MDg5LC03ODI0OTc0
-MzMsMjA0ODM2Mjc2N119
+eyJoaXN0b3J5IjpbMzQ0MDg4NTM1LDE4Nzk2MDE3MTEsLTc0Nz
+M0OTU1Myw5NTgyNTQyNzksLTc2NjM5NDA4OSwtNzgyNDk3NDMz
+LDIwNDgzNjI3NjddfQ==
 -->
