@@ -446,7 +446,7 @@ names.forEach {
 - [ ] "", "", ""
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
-- [ ] Código não compila
+- [x] Código não compila
 
 **26. Qual a saída produzida pelo seguinte trecho de código?**
 ```swift
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDcyMTYxNywxODc5NjAxNzExLC03ND
+eyJoaXN0b3J5IjpbMTQyNjU4NDAyMywxODc5NjAxNzExLC03ND
 czNDk1NTMsOTU4MjU0Mjc5LC03NjYzOTQwODksLTc4MjQ5NzQz
 MywyMDQ4MzYyNzY3XX0=
 -->
