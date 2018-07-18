@@ -298,7 +298,7 @@ names.append("Clara")
 let numbers = Array(1..<10)
 print(numbers.count)
 ```
-- [ ] "9"
+- [x] "9"
 - [ ] "10"
 - [ ] "11"
 - [ ] "0"
@@ -326,7 +326,7 @@ do {
     print("Code just didn't work")
 }
 ```
-- [ ] "Code was busted"
+- [x] "Code was busted"
 - [ ] "Code just didn't work"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -655,6 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzM0OTU1Myw5NTgyNTQyNzksLTc2Nj
-M5NDA4OSwtNzgyNDk3NDMzLDIwNDgzNjI3NjddfQ==
+eyJoaXN0b3J5IjpbLTExMjI1ODY5MjksLTc0NzM0OTU1Myw5NT
+gyNTQyNzksLTc2NjM5NDA4OSwtNzgyNDk3NDMzLDIwNDgzNjI3
+NjddfQ==
 -->
