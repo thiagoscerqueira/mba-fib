@@ -429,7 +429,7 @@ var bar: Double = 32
 - [ ] Ambas as variáveis podem ser atribuídas uma a outra
 - [ ] `foo` pode ser atribuída a `bar`, mas o contrário não é possível
 - [ ] `bar` pode ser atribuída a `foo`, mas o contrário não é possível
-- [ ] Nenhuma variável pode ser atribuída a outra
+- [x] Nenhuma variável pode ser atribuída a outra
 - [ ] Nenhuma das anteriores
 
 **25. Qual a saída produzida pelo seguinte trecho de código?**
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM3NDE0MzMsMTg3OTYwMTcxMSwtNz
-Q3MzQ5NTUzLDk1ODI1NDI3OSwtNzY2Mzk0MDg5LC03ODI0OTc0
-MzMsMjA0ODM2Mjc2N119
+eyJoaXN0b3J5IjpbLTg2NDcyMTYxNywxODc5NjAxNzExLC03ND
+czNDk1NTMsOTU4MjU0Mjc5LC03NjYzOTQwODksLTc4MjQ5NzQz
+MywyMDQ4MzYyNzY3XX0=
 -->
