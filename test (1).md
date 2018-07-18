@@ -348,7 +348,7 @@ default:
 }
 ```
 - [ ] "First group"
-- [ ] "Second group"
+- [x] "Second group"
 - [ ] "Third group"
 - [ ] "Fourth group"
 - [ ] nada
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI1ODY5MjksLTc0NzM0OTU1Myw5NT
-gyNTQyNzksLTc2NjM5NDA4OSwtNzgyNDk3NDMzLDIwNDgzNjI3
-NjddfQ==
+eyJoaXN0b3J5IjpbMTYyMjc2MTM1LC03NDczNDk1NTMsOTU4Mj
+U0Mjc5LC03NjYzOTQwODksLTc4MjQ5NzQzMywyMDQ4MzYyNzY3
+XX0=
 -->
