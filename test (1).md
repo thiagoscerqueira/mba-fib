@@ -401,7 +401,7 @@ greet(names: "Malcolm", "Kaylee", "Zoe")
 let people = [String](repeating: "Malkovitch", count: 2)
 print(people)
 ```
-- [ ] ["Malkovitch", "Malkovitch"]
+- [x] ["Malkovitch", "Malkovitch"]
 - [ ] ["Malkovitch, Malkovitch"]
 - [ ] "Malkovitch", "Malkovitch"
 - [ ] "Malkovitch, Malkovitch"
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjkwMDI2NSwtNzQ3MzQ5NTUzLDk1OD
+eyJoaXN0b3J5IjpbMTg3OTYwMTcxMSwtNzQ3MzQ5NTUzLDk1OD
 I1NDI3OSwtNzY2Mzk0MDg5LC03ODI0OTc0MzMsMjA0ODM2Mjc2
 N119
 -->
