@@ -165,7 +165,7 @@ muttface.bark()
 - [ ] "Yip!"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
-- [ ] Código não compila
+- [x] Código não compila
 
 **9. Qual a saída produzida pelo seguinte trecho de código?**
 ```swift
@@ -655,6 +655,6 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDcyMjI0NywtNzY2Mzk0MDg5LC03OD
-I0OTc0MzMsMjA0ODM2Mjc2N119
+eyJoaXN0b3J5IjpbNTA0MzE0Mzk5LC03NjYzOTQwODksLTc4Mj
+Q5NzQzMywyMDQ4MzYyNzY3XX0=
 -->
