@@ -635,7 +635,7 @@ func fetchCrewMember() -> (job: String, name: String) {
 let result = fetchCrewMember().0
 ```
 - [ ] "Jayne"
-- [ ] "Public Relations"
+- [x] "Public Relations"
 - [ ] ("Public Relations", "Jayne") - tupla
 - [ ] (0) - tupla
 - [ ] ["Public Relations", "Jayne"]
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjczNDM3NSwtMzU1MDM4MDgxLC0xNT
+eyJoaXN0b3J5IjpbLTkwOTQyOTgwOSwtMzU1MDM4MDgxLC0xNT
 IzODIzMDU3LDM0NDA4ODUzNSwxODc5NjAxNzExLC03NDczNDk1
 NTMsOTU4MjU0Mjc5LC03NjYzOTQwODksLTc4MjQ5NzQzMywyMD
 Q4MzYyNzY3XX0=
