@@ -600,7 +600,7 @@ if let firstName = names.first {
 }
 ```
 - [ ] "Barbara"
-- [ ] "Optional(\"Barbara\")
+- [x] "Optional(\"Barbara\")
 - [ ] "nil"
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -655,7 +655,7 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNzY3NDQ3LC0xNTIzODIzMDU3LDM0ND
-A4ODUzNSwxODc5NjAxNzExLC03NDczNDk1NTMsOTU4MjU0Mjc5
-LC03NjYzOTQwODksLTc4MjQ5NzQzMywyMDQ4MzYyNzY3XX0=
+eyJoaXN0b3J5IjpbLTM1NTAzODA4MSwtMTUyMzgyMzA1NywzND
+QwODg1MzUsMTg3OTYwMTcxMSwtNzQ3MzQ5NTUzLDk1ODI1NDI3
+OSwtNzY2Mzk0MDg5LC03ODI0OTc0MzMsMjA0ODM2Mjc2N119
 -->
