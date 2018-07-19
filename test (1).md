@@ -620,7 +620,7 @@ print(foo(bar))
 ```
 - [ ] 15
 - [ ] 3
-- [ ] 45
+- [x] 45
 - [ ] 5
 - [ ] nada
 - [ ] Código compila, mas resulta em erro fatal
@@ -655,7 +655,8 @@ print(string)
 - [ ] Código compila, mas resulta em erro fatal
 - [ ] Código não compila
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTAzODA4MSwtMTUyMzgyMzA1NywzND
-QwODg1MzUsMTg3OTYwMTcxMSwtNzQ3MzQ5NTUzLDk1ODI1NDI3
-OSwtNzY2Mzk0MDg5LC03ODI0OTc0MzMsMjA0ODM2Mjc2N119
+eyJoaXN0b3J5IjpbMTc0NjczNDM3NSwtMzU1MDM4MDgxLC0xNT
+IzODIzMDU3LDM0NDA4ODUzNSwxODc5NjAxNzExLC03NDczNDk1
+NTMsOTU4MjU0Mjc5LC03NjYzOTQwODksLTc4MjQ5NzQzMywyMD
+Q4MzYyNzY3XX0=
 -->
